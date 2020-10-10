@@ -1,0 +1,28 @@
+button {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: seagreen;
+  border: 1px solid seagreen;
+  color: white;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: grey;
+  border: 1px solid grey;
+}
+
+#console {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 30px;
+}
